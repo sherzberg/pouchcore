@@ -1,0 +1,13 @@
+{
+  "name": "simple-pouchdb-app",
+  "description": "Simple PouchDB App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.6.2",
+    "express": "3.2.2",
+    "connect-assets": "2.4.2",
+    "pouchdb": "0.0.12",
+    "jade": "0.30.0"
+  }
+}

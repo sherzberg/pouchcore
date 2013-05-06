@@ -1,0 +1,27 @@
+doctype 5
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
+    script(src='/js/pouchdb-nightly.js')
+    != js('pouchcore')
+    != js('app')
+    title PouchDB Playground
+  body
+    h1 PouchDB Playground
+    div#message
+    div#replication
+      label Replication: 
+      a#replication-start(href="#") Start
+      span : 
+      a#replication-stop(href="#") Stop
+    div
+      label Title
+      input#title(type="text")
+      br
+      label Content
+      input#content(type="textarea")
+      br
+      a#add(href='#') Add
+    div#table
