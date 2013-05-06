@@ -8,5 +8,5 @@ Setup
 ::
 
     $ npm install
-    $ nodemon
+    $ nodemon server.coffee
 
