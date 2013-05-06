@@ -3,6 +3,7 @@
   "description": "Simple PouchDB App",
   "version": "0.0.1",
   "private": true,
+  "main": "server.coffee",
   "dependencies": {
     "coffee-script": "1.6.2",
     "express": "3.2.2",
